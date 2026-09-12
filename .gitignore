@@ -1,0 +1,48 @@
+# Maven build target
+target/
+*.war
+*.jar
+*.ear
+
+# Embedded Tomcat temporary runtime directories
+tomcat.*
+work/
+temp/
+
+# Embedded H2 Database files
+*.mv.db
+*.trace.db
+disaster_relief_db*
+
+# Operational log outputs (keep directory with .gitkeep)
+logs/*
+!logs/.gitkeep
+
+# Serialized system state snapshots (keep directory with .gitkeep)
+snapshots/*.ser
+!snapshots/.gitkeep
+
+# Generated audit exports (keep directory with .gitkeep)
+reports/*.csv
+reports/*.txt
+!reports/.gitkeep
+
+# IDE and Project configuration files
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+.metadata/
+bin/
+
+# Operating System Files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Temporary files & session cookies
+cookies.txt
+*.tmp
+*.log
